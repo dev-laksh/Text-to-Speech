@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Text to Speech</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 1rem;
+    }
+
+    #text {
+      width: 100%;
+      height: 50vh;
+    }
+  </style>
+  <script src="script.js" defer></script>
+  <script src="https://kit.fontawesome.com/4e4ab773fc.js" crossorigin="anonymous" ></script>
+</head>
+
+<body>
+  <h1 style="text-align: center;">Speech to Text</h1>
+  <textarea id="text" placeholder="Type your speech here!"></textarea>
+  <div class="fun">
+    <label for="speed">Speed</label>
+    <input type="number" name="spee" id="speed" min=".5" max="3" step=".5" value="1">
+    <button id="play-button">Play</button>
+    <button id="pause-button">Pause</button>
+    <button id="stop-button">Stop</button>
+  </div>
+  <footer>
+    <span>Made by Dev Laksh</span>&nbsp;&nbsp;&nbsp;
+    <span>Follow me on <a href="https://github.com/dev-laksh" target="_blank">github<i class="far fa-volume"></i></a></span>&nbsp;&nbsp;&nbsp;
+    <span>Follow me on <a href="https://www.facebook.com/Dev-laksh-105720721306584" target="_blank">facebook</a></span>
+    <span>Follow me on <a href="https://discord.com/channels/758519974406651945/762202867100418108" target="_blank">discord</a></span>
+  </footer>
+</body>
+
+</html>
